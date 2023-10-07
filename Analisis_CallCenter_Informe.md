@@ -2,7 +2,7 @@
 
 ## "Anonymous Bank" Call-Center DataSet
 
-En el presente informe, se lleva a cabo un análisis exploratorio de un conjunto de datos recopilados en un **período** de **12 meses**, desde el 01/01/99 hasta el 31/12/99, correspondientes a las llamadas gestionadas por el call center de **"Anonymus Bank"**. <br>
+En el presente informe, se lleva a cabo un análisis exploratorio de un conjunto de datos recopilados en un **período** de **12 meses**, desde el 01/01/99 hasta el 31/12/99, correspondientes a las **llamadas** gestionadas por el **call center** de **"Anonymus Bank"**. <br>
 
 El **conjunto de datos** contiene un **total** de **444.448 filas**, cada una de las cuales representa una llamada. Estas llamadas se pueden dividir en tres etapas principales: ingreso al VRU (Unidad de Respuesta de Voz), ingreso a la cola de espera y acceso a la prestación efectiva del servicio por parte de un agente, a menos que el cliente haya finalizado la llamada colgando. Cada registro de llamada proporciona información relevante, como identificación de la llamada, identificación del cliente, prioridad del cliente, tipo de servicio solicitado, fecha, hora de entrada y salida en las diferentes etapas de la llamada, duración en cada etapa y el resultado final de la llamada. Se **excluyen** de este análisis las llamadas con resultado **"PHANTOM"**, en las cuales virtualmente se ignora lo que sucedió en la llamada, y aquellas donde el **tiempo en VRU era negativo** (lo cual se considera un error) reduciendo el conjunto de datos a 440.517 filas.<br>
 
